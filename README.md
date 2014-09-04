@@ -1,6 +1,6 @@
 Data_structures
 ==============================
-Author: Jose Luis Rodriguez
+Jose Luis Rodriguez
 Loyola University of Chicago
 ==============================
 DATA STRUCTURES
