@@ -1,6 +1,5 @@
 Data_structures
 ==============================
-Jose Luis Rodriguez
 Loyola University of Chicago
 ==============================
 DATA STRUCTURES
