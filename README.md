@@ -1,12 +1,13 @@
 Data_structures
 ==============================
-
+Author: Jose Luis Rodriguez
+Loyola University of Chicago
+==============================
 DATA STRUCTURES
 COMP 271
 Thursday 6:00 PM - 9:30PM
 Crown Center 105
-Ms. Maria Saenz
-==============================
+Professor: Ms. Maria Saenz
 
 This course is a continuation of COMP 170 introduces the concepts of data abstraction and data structure, 
 including stacks, queues, lists, sets, and trees. The issues of implementing a data structure in a language such as C++ 
