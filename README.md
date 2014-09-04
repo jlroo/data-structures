@@ -6,6 +6,7 @@ DATA STRUCTURES
 COMP 271
 Thursday 6:00 PM - 9:30PM
 Crown Center 105
+
 Professor: Ms. Maria Saenz
 
 This course is a continuation of COMP 170 introduces the concepts of data abstraction and data structure, 
