@@ -70,7 +70,7 @@ Sphere::Sphere(double r){
 
 int Sphere::get_surface_area(){
     
-	return 4*(pi)*(radius^2);
+	return 4*(pi)*(pow(radius,2));
 }
 
 class Triangle{

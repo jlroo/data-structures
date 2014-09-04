@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E738FCB919B8C28700314BB2 /* HW_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E738FCB019B8C28700314BB2 /* HW_1.cpp */; };
+		E78B1B2019B8D78500AE2B65 /* HW_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E78B1B1819B8D78500AE2B65 /* HW_1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,13 +24,12 @@
 
 /* Begin PBXFileReference section */
 		E738FCA319B8C25600314BB2 /* C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E738FCB019B8C28700314BB2 /* HW_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HW_1.cpp; sourceTree = "<group>"; };
-		E738FCB119B8C28700314BB2 /* HW_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HW_1.h; sourceTree = "<group>"; };
-		E738FCB319B8C28700314BB2 /* lab_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lab_1.cpp; sourceTree = "<group>"; };
-		E738FCB519B8C28700314BB2 /* postpre_increment_example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = postpre_increment_example.cpp; sourceTree = "<group>"; };
-		E738FCB619B8C28700314BB2 /* powerball_example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = powerball_example.cpp; sourceTree = "<group>"; };
-		E738FCB719B8C28700314BB2 /* Rectangle_Example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle_Example.cpp; sourceTree = "<group>"; };
-		E738FCB819B8C28700314BB2 /* Swap_Pointers_References.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Swap_Pointers_References.cpp; sourceTree = "<group>"; };
+		E78B1B1819B8D78500AE2B65 /* HW_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HW_1.cpp; sourceTree = "<group>"; };
+		E78B1B1A19B8D78500AE2B65 /* lab_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lab_1.cpp; sourceTree = "<group>"; };
+		E78B1B1C19B8D78500AE2B65 /* postpre_increment_example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = postpre_increment_example.cpp; sourceTree = "<group>"; };
+		E78B1B1D19B8D78500AE2B65 /* powerball_example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = powerball_example.cpp; sourceTree = "<group>"; };
+		E78B1B1E19B8D78500AE2B65 /* Rectangle_Example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle_Example.cpp; sourceTree = "<group>"; };
+		E78B1B1F19B8D78500AE2B65 /* Swap_Pointers_References.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Swap_Pointers_References.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +46,9 @@
 		E738FC9A19B8C25600314BB2 = {
 			isa = PBXGroup;
 			children = (
-				E738FCAF19B8C28700314BB2 /* COMP_271_HW */,
-				E738FCB219B8C28700314BB2 /* COMP_271_LABS */,
-				E738FCB419B8C28700314BB2 /* SAMPLE_CODE */,
+				E78B1B1719B8D78500AE2B65 /* HW */,
+				E78B1B1919B8D78500AE2B65 /* LABS */,
+				E78B1B1B19B8D78500AE2B65 /* SAMPLE_CODE */,
 				E738FCA419B8C25600314BB2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,30 +61,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E738FCAF19B8C28700314BB2 /* COMP_271_HW */ = {
+		E78B1B1719B8D78500AE2B65 /* HW */ = {
 			isa = PBXGroup;
 			children = (
-				E738FCB019B8C28700314BB2 /* HW_1.cpp */,
-				E738FCB119B8C28700314BB2 /* HW_1.h */,
+				E78B1B1819B8D78500AE2B65 /* HW_1.cpp */,
 			);
-			path = COMP_271_HW;
+			path = HW;
 			sourceTree = "<group>";
 		};
-		E738FCB219B8C28700314BB2 /* COMP_271_LABS */ = {
+		E78B1B1919B8D78500AE2B65 /* LABS */ = {
 			isa = PBXGroup;
 			children = (
-				E738FCB319B8C28700314BB2 /* lab_1.cpp */,
+				E78B1B1A19B8D78500AE2B65 /* lab_1.cpp */,
 			);
-			path = COMP_271_LABS;
+			path = LABS;
 			sourceTree = "<group>";
 		};
-		E738FCB419B8C28700314BB2 /* SAMPLE_CODE */ = {
+		E78B1B1B19B8D78500AE2B65 /* SAMPLE_CODE */ = {
 			isa = PBXGroup;
 			children = (
-				E738FCB519B8C28700314BB2 /* postpre_increment_example.cpp */,
-				E738FCB619B8C28700314BB2 /* powerball_example.cpp */,
-				E738FCB719B8C28700314BB2 /* Rectangle_Example.cpp */,
-				E738FCB819B8C28700314BB2 /* Swap_Pointers_References.cpp */,
+				E78B1B1C19B8D78500AE2B65 /* postpre_increment_example.cpp */,
+				E78B1B1D19B8D78500AE2B65 /* powerball_example.cpp */,
+				E78B1B1E19B8D78500AE2B65 /* Rectangle_Example.cpp */,
+				E78B1B1F19B8D78500AE2B65 /* Swap_Pointers_References.cpp */,
 			);
 			path = SAMPLE_CODE;
 			sourceTree = "<group>";
@@ -141,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E738FCB919B8C28700314BB2 /* HW_1.cpp in Sources */,
+				E78B1B2019B8D78500AE2B65 /* HW_1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +249,7 @@
 				E738FCAE19B8C25600314BB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

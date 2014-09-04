@@ -1,0 +1,36 @@
+GitHub Setup
+
+    Create repository on GitHub
+    Get SSH URL such as: git@github.com:ACCOUNT/PROJECT.git
+    Generate and add your Public SSH key to your GitHub Account (You can follow this tutorial, just steps 1. up to 6.; don't do steps 7. and on).
+
+XCode Setup
+
+    Create a new project in XCode (DO NOT select the local git repository/source control option, we will do this manually).
+    Close XCode (important!).
+
+Local Git Setup
+
+    Browse to the project path where the .xcodeproj file is.
+
+    Execute the following from your command line:
+
+    git init
+    git add .
+    git commit -m 'Initial commit from local git'
+    git remote add origin git@github.com:ACCOUNT/PROJECT.git
+    git pull origin master
+    (VIM editor opens)
+    Hit 'i' to add a comment, for example 'Initial merge to sync local git with remote git'. 
+    Hit 'ESC'.
+    Hit 'ZZ'.
+    (VIM editor closes)
+    git push origin master
+
+Finally, open project on XCode. If everything went OK you'll see Source Control is configured for GitHub use.
+
+If you try it please let me know how it goes.
+
+Thanks!
+
+EDIT: Formating
