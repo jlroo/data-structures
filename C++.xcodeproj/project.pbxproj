@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E78B1B2019B8D78500AE2B65 /* HW_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E78B1B1819B8D78500AE2B65 /* HW_1.cpp */; };
+		E77108B919BEB0F30051E1CF /* BattleShip_game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E77108B719BEB0F30051E1CF /* BattleShip_game.cpp */; };
+		E77108BA19BEB0F30051E1CF /* lab_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E77108B819BEB0F30051E1CF /* lab_2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,12 +25,15 @@
 
 /* Begin PBXFileReference section */
 		E738FCA319B8C25600314BB2 /* C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77108B719BEB0F30051E1CF /* BattleShip_game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BattleShip_game.cpp; sourceTree = "<group>"; };
+		E77108B819BEB0F30051E1CF /* lab_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lab_2.cpp; sourceTree = "<group>"; };
 		E78B1B1819B8D78500AE2B65 /* HW_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HW_1.cpp; sourceTree = "<group>"; };
 		E78B1B1A19B8D78500AE2B65 /* lab_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lab_1.cpp; sourceTree = "<group>"; };
 		E78B1B1C19B8D78500AE2B65 /* postpre_increment_example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = postpre_increment_example.cpp; sourceTree = "<group>"; };
 		E78B1B1D19B8D78500AE2B65 /* powerball_example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = powerball_example.cpp; sourceTree = "<group>"; };
 		E78B1B1E19B8D78500AE2B65 /* Rectangle_Example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle_Example.cpp; sourceTree = "<group>"; };
 		E78B1B1F19B8D78500AE2B65 /* Swap_Pointers_References.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Swap_Pointers_References.cpp; sourceTree = "<group>"; };
+		E79884FA19B94B21000CE621 /* CString_Slides.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CString_Slides.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 		E78B1B1919B8D78500AE2B65 /* LABS */ = {
 			isa = PBXGroup;
 			children = (
+				E77108B719BEB0F30051E1CF /* BattleShip_game.cpp */,
+				E77108B819BEB0F30051E1CF /* lab_2.cpp */,
 				E78B1B1A19B8D78500AE2B65 /* lab_1.cpp */,
 			);
 			path = LABS;
@@ -80,6 +86,7 @@
 		E78B1B1B19B8D78500AE2B65 /* SAMPLE_CODE */ = {
 			isa = PBXGroup;
 			children = (
+				E79884FA19B94B21000CE621 /* CString_Slides.cpp */,
 				E78B1B1C19B8D78500AE2B65 /* postpre_increment_example.cpp */,
 				E78B1B1D19B8D78500AE2B65 /* powerball_example.cpp */,
 				E78B1B1E19B8D78500AE2B65 /* Rectangle_Example.cpp */,
@@ -139,7 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78B1B2019B8D78500AE2B65 /* HW_1.cpp in Sources */,
+				E77108BA19BEB0F30051E1CF /* lab_2.cpp in Sources */,
+				E77108B919BEB0F30051E1CF /* BattleShip_game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

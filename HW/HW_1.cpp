@@ -194,5 +194,6 @@ int main(){
             }
             
         }
-    }while (key!=52);
+    }
+    while (key!=52);
 }
