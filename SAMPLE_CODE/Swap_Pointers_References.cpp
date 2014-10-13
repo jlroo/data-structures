@@ -8,21 +8,22 @@
 
 #include <iostream>
 using namespace std;
+
 //first swap
-/*void swap(int x, int y)
+void swap(int x, int y)
 {
     int t=x;
     x=y;
     y=t;
-}*/
+}
 
 //second swap
-/*void swap(int *x, int *y)
+void swap(int *x, int *y)
 {
     int t=*x;
     *x=*y;
     *y=t;
-}*/
+}
 
 //third swap
 
@@ -75,15 +76,15 @@ int main()
     int b=7; // example of memory location: 1edc
     
     //first swap and third swap
-    swap(a,b);
+    //swap(a,b);
     
     //second swap
-    //swap(&a,&b);
+    swap(&a,&b);
     
     //This is the output
     cout<<"A is: "<<a<<" and B is : "<<b<<endl;
     
-    //assign_reference();
+    assign_reference();
 
     return 0;
 }

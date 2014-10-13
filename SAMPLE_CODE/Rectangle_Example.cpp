@@ -35,18 +35,15 @@ Rectangle::Rectangle(int l, int w)
 	}
 }
 
-int Rectangle::get_length()
-{
+int Rectangle::get_length() {
 	return length;
 }
 
-int Rectangle::get_width()
-{
+int Rectangle::get_width() {
 	return width;
 }
 
-int Rectangle::get_area()
-{
+int Rectangle::get_area() {
 	return length*width;
 }
 

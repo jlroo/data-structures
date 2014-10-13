@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E77108B919BEB0F30051E1CF /* BattleShip_game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E77108B719BEB0F30051E1CF /* BattleShip_game.cpp */; };
-		E77108BA19BEB0F30051E1CF /* lab_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E77108B819BEB0F30051E1CF /* lab_2.cpp */; };
+		CB4968C719E9FBA20029E8C2 /* HW_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7CC76CF19D4CCD800C0DEA9 /* HW_3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +23,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CBDAD89D19E9F94800639B19 /* hw5_student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hw5_student.cpp; sourceTree = "<group>"; };
+		E7356CCA19CBC1F200E2D73B /* Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = "<group>"; };
+		E7356CCB19CBC1F200E2D73B /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		E7356CD619D21E0600E2D73B /* templates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = templates.cpp; sourceTree = "<group>"; };
+		E7356CD719D21E0600E2D73B /* cont_stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cont_stack.cpp; sourceTree = "<group>"; };
+		E7356CD819D21E0600E2D73B /* stacks_stdlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stacks_stdlib.cpp; sourceTree = "<group>"; };
+		E7356CD919D21E0600E2D73B /* lab3_finished.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lab3_finished.cpp; sourceTree = "<group>"; };
+		E737DCB019C7C7990029B464 /* Arrays_Slides.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arrays_Slides.cpp; sourceTree = "<group>"; };
+		E737DCB119C7C7990029B464 /* Rectangle_Example_like_HW2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle_Example_like_HW2.cpp; sourceTree = "<group>"; };
+		E737DCB219C7C7990029B464 /* Struct_Slide.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Struct_Slide.cpp; sourceTree = "<group>"; };
 		E738FCA319B8C25600314BB2 /* C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77108B719BEB0F30051E1CF /* BattleShip_game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BattleShip_game.cpp; sourceTree = "<group>"; };
-		E77108B819BEB0F30051E1CF /* lab_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lab_2.cpp; sourceTree = "<group>"; };
 		E78B1B1819B8D78500AE2B65 /* HW_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HW_1.cpp; sourceTree = "<group>"; };
 		E78B1B1A19B8D78500AE2B65 /* lab_1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lab_1.cpp; sourceTree = "<group>"; };
 		E78B1B1C19B8D78500AE2B65 /* postpre_increment_example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = postpre_increment_example.cpp; sourceTree = "<group>"; };
@@ -34,6 +42,16 @@
 		E78B1B1E19B8D78500AE2B65 /* Rectangle_Example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle_Example.cpp; sourceTree = "<group>"; };
 		E78B1B1F19B8D78500AE2B65 /* Swap_Pointers_References.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Swap_Pointers_References.cpp; sourceTree = "<group>"; };
 		E79884FA19B94B21000CE621 /* CString_Slides.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CString_Slides.cpp; sourceTree = "<group>"; };
+		E7AA0D9219DBAABD00FEE477 /* Queue_STD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Queue_STD.cpp; sourceTree = "<group>"; };
+		E7CC76CF19D4CCD800C0DEA9 /* HW_3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HW_3.cpp; sourceTree = "<group>"; };
+		E7CC76D019D4CCD800C0DEA9 /* HW_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HW_3.h; sourceTree = "<group>"; };
+		E7CC76D419D4D2EC00C0DEA9 /* Stack_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stack_2.cpp; sourceTree = "<group>"; };
+		E7CC76D519D4D2EC00C0DEA9 /* Stack_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack_2.h; sourceTree = "<group>"; };
+		E7CC76D819D4D80900C0DEA9 /* HW_4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HW_4.cpp; sourceTree = "<group>"; };
+		E7CC76D919D4D80900C0DEA9 /* HW_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HW_4.h; sourceTree = "<group>"; };
+		E7EF715C19C23B8F00B2699D /* HW_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HW_2.cpp; sourceTree = "<group>"; };
+		E7EF715F19C27B7A00B2699D /* lab3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lab3.cpp; sourceTree = "<group>"; };
+		E7EF716319C285E100B2699D /* albums.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = albums.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +86,13 @@
 		E78B1B1719B8D78500AE2B65 /* HW */ = {
 			isa = PBXGroup;
 			children = (
+				CBDAD89D19E9F94800639B19 /* hw5_student.cpp */,
 				E78B1B1819B8D78500AE2B65 /* HW_1.cpp */,
+				E7EF715C19C23B8F00B2699D /* HW_2.cpp */,
+				E7CC76CF19D4CCD800C0DEA9 /* HW_3.cpp */,
+				E7CC76D019D4CCD800C0DEA9 /* HW_3.h */,
+				E7CC76D819D4D80900C0DEA9 /* HW_4.cpp */,
+				E7CC76D919D4D80900C0DEA9 /* HW_4.h */,
 			);
 			path = HW;
 			sourceTree = "<group>";
@@ -76,8 +100,11 @@
 		E78B1B1919B8D78500AE2B65 /* LABS */ = {
 			isa = PBXGroup;
 			children = (
+				E7356CCA19CBC1F200E2D73B /* Stack.cpp */,
+				E7356CCB19CBC1F200E2D73B /* Stack.h */,
+				E7EF716319C285E100B2699D /* albums.txt */,
+				E7EF715F19C27B7A00B2699D /* lab3.cpp */,
 				E77108B719BEB0F30051E1CF /* BattleShip_game.cpp */,
-				E77108B819BEB0F30051E1CF /* lab_2.cpp */,
 				E78B1B1A19B8D78500AE2B65 /* lab_1.cpp */,
 			);
 			path = LABS;
@@ -86,6 +113,16 @@
 		E78B1B1B19B8D78500AE2B65 /* SAMPLE_CODE */ = {
 			isa = PBXGroup;
 			children = (
+				E7AA0D9219DBAABD00FEE477 /* Queue_STD.cpp */,
+				E7CC76D419D4D2EC00C0DEA9 /* Stack_2.cpp */,
+				E7CC76D519D4D2EC00C0DEA9 /* Stack_2.h */,
+				E7356CD619D21E0600E2D73B /* templates.cpp */,
+				E7356CD719D21E0600E2D73B /* cont_stack.cpp */,
+				E7356CD819D21E0600E2D73B /* stacks_stdlib.cpp */,
+				E7356CD919D21E0600E2D73B /* lab3_finished.cpp */,
+				E737DCB019C7C7990029B464 /* Arrays_Slides.cpp */,
+				E737DCB119C7C7990029B464 /* Rectangle_Example_like_HW2.cpp */,
+				E737DCB219C7C7990029B464 /* Struct_Slide.cpp */,
 				E79884FA19B94B21000CE621 /* CString_Slides.cpp */,
 				E78B1B1C19B8D78500AE2B65 /* postpre_increment_example.cpp */,
 				E78B1B1D19B8D78500AE2B65 /* powerball_example.cpp */,
@@ -102,9 +139,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E738FCAC19B8C25600314BB2 /* Build configuration list for PBXNativeTarget "C++" */;
 			buildPhases = (
-				E738FC9F19B8C25600314BB2 /* Sources */,
 				E738FCA019B8C25600314BB2 /* Frameworks */,
 				E738FCA119B8C25600314BB2 /* CopyFiles */,
+				E738FC9F19B8C25600314BB2 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -146,8 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E77108BA19BEB0F30051E1CF /* lab_2.cpp in Sources */,
-				E77108B919BEB0F30051E1CF /* BattleShip_game.cpp in Sources */,
+				CB4968C719E9FBA20029E8C2 /* HW_3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,7 +31,7 @@ void top_numbers(int user) { // numbers top header
     }
 }
 
-void battle_board(char * * array_twodd, int user_size) {
+void battle_board(char * * board_array, int user_size) {
     
     cout << "  ";
     top_numbers(user_size);
@@ -43,7 +43,7 @@ void battle_board(char * * array_twodd, int user_size) {
         cout << " ";
         
         for (int j = 0; j < user_size; j++) {
-            cout << array_twodd[i][j];
+            cout << board_array[i][j];
             cout << " ";
         }
         cout << endl;
@@ -103,7 +103,7 @@ bool ships_position(int * * ships_board, char * * initial_board ,int user_size,i
 int main() {
     int user_size, num_ships;
     char * * initial_board;
-    int ** ships_board;
+    int * * ships_board;
     int row;
     int col;
     char play_again='y';
@@ -143,6 +143,7 @@ int main() {
     cin >> num_ships;
     
     ships_board = new int * [user_size];
+    
     for (int i = 0; i < user_size; i++) {
         ships_board[i] = new int[user_size];
     }
@@ -165,16 +166,14 @@ int main() {
         
     }while (total_hits != num_ships);
     
-    std::cout << R"(
-    ########################################
-    #   *_    _* !!  YOU WIN !! *_    _*   #
-    #   * \  / *   !!!!!!!!!!   * \  / *   #
-    #      \/         !!!!         \/      #
-    #            !!  YOU WIN !!            #
-    #  ^               !!!!             ^  #
-    #  ┴  C O N G R A T U L A T I O N   ┴  #
-    ########################################
-    )" ;
+    cout <<"########################################"<< endl;
+    cout <<"#   *_    _* !!  YOU WIN !! *_    _*   #"<< endl;
+    cout <<"#   * \  / *   !!!!!!!!!!   * \  / *   #"<< endl;
+    cout <<"#      \/         !!!!         \/      #"<< endl;
+    cout <<"#            !!  YOU WIN !!            #"<< endl;
+    cout <<"#  ^               !!!!             ^  #"<< endl;
+    cout <<"#  ┴  C O N G R A T U L A T I O N S ┴  #"<< endl;
+    cout <<"########################################"<< endl;
     
     /*********** Restart Game ***********/
     /*** Restart the ship locations  ***/
@@ -190,7 +189,9 @@ int main() {
         delete[] initial_board[j]; //delete every column instantiated
     }
     delete[] initial_board; //get rid of the rest of the array
+    
     cout<<""<<endl;
+    
     cout<<"Do you want to play again?(y/n)"<<endl;
     cin>>play_again;
     
