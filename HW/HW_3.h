@@ -182,8 +182,8 @@ bool find_oldest_movie(string filename){
     do {
         if (file_search.is_open()){
             while (!file_search.eof()) {
+                
                 for (int i=0; i<num; i++) {
-                    
                 file_search.getline(input, 300, ',');
                 t_user= new char[strlen(input)+1];
                 strcpy(t_user,input);
@@ -266,6 +266,8 @@ bool write_console(string file_name){                //get the file name from th
     
     cout<<"* * * * * * * * "<<endl;
     cout<<" "<<endl;
+    cin.ignore();
+    
         do {
             if (fin.is_open()){
                 while (!fin.eof()) {
@@ -278,7 +280,7 @@ bool write_console(string file_name){                //get the file name from th
                     fin.ignore();
                     getline(fin, genre, ',');
                     getline(fin, rating, '\n');
-                    
+
                     cout <<"Title:"         << title    <<endl;
                     cout <<"Director:"      << director <<endl;
                     cout <<"Duration:"      << runtime  <<endl;

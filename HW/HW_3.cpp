@@ -7,7 +7,7 @@
 //
 
 #include "HW_3.h"
-#include<fstream>
+#include <fstream>
 #include <iostream>
 
 int main(){
@@ -22,10 +22,10 @@ int main(){
         //welcome message and menu options
         cout << "Welcome to your Movie archive"<<endl;
         cout << "Lets start adding movies to your archive"<< endl;
-        cout << "To Add movies    press  (1)"<<endl;
-        cout << "To Open archive  press  (2)"<<endl;
-        cout << "To Find oldest   press  (3)"<<endl;
-        cout << "To Exit          press  (4)"<<endl;
+        cout << "To Add movies    [press]  (1)"<<endl;
+        cout << "To Open archive  [press]  (2)"<<endl;
+        cout << "To Find oldest   [press]  (3)"<<endl;
+        cout << "To Exit          [press]  (4)"<<endl;
         cout << "Choose one option:"<<endl;
         
         cin >> key; //get option for the swicth

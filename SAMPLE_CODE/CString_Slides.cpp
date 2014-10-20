@@ -100,7 +100,7 @@ void strrchr_slide(){
 }
 
 void strstr_slide(){
-	char str[] ="This is a simple string";
+  char str[] ="This is a simple string";
   char * pch;
   pch = strstr (str,"simple");
   strncpy (pch,"sample",6);

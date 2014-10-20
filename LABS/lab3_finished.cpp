@@ -32,7 +32,6 @@ using namespace std;
 
 
 //Create a file and adds a sentence from the user
-/*
 bool test_output()
 {
     string filename;
@@ -41,23 +40,27 @@ bool test_output()
     getline(cin, filename);
     cout << "Enter a sentence to put into the file: ";
     getline(cin, sentence);
-    
     ofstream file;
-    
     file.open(filename.c_str()); //open takes in const char * change string to char *
     file << sentence << "\n";
-    
     file.clear();
     file.close();
-    
+     /***
+     This is the code from the Slide Example
+     ofstream out;
+     char text[100];
+     out.open(filename);
+     out << sentence << endl;
+     out.clear(); out.close();***/
     return true;
-}*/
+}
 
 //This function reads in a file albums.txt and parses each piece of data and puts it in a variable
 bool test_input_simple()
 {
     char input[300];
     string filename;
+    
     string artist;
     string album;
     string label;
@@ -65,44 +68,32 @@ bool test_input_simple()
     int year;
     string genre;
     double runtime;
+    
     ifstream fin;
+    
     cout << "Enter a filename: ";
     getline(cin, filename);
+    
     fin.open(filename.c_str());
-    cout<<""<<endl;
     
     do
     {
         if (fin.is_open())
         {
-            while (!fin.eof()) {
-                
-                getline(fin, artist, '\t');
-                getline(fin, album, '\t');
-                
-                fin >> year;
-                fin.getline(input, 300, '\t');
-
-                getline(fin, label, '\t');
-                
-                fin >> no_of_tracks;
-                fin.getline(input, 300, '\t');
-                
-                fin >> runtime;
-                fin.getline(input, 300, '\t');
-                
-                getline(fin, genre, '\r');
-                fin.getline(input, 300, '\n');
-                
-                cout << artist<<endl;
-                cout << album <<endl;
-                cout << year <<endl;
-                cout << label <<endl;
-                cout << no_of_tracks<<endl;
-                cout<< runtime <<endl;
-                cout<< genre<<endl;
-                cout<<""<<endl;
-            }
+            getline(fin, artist, '\t');
+            getline(fin, album, '\t');
+            fin >> year;
+            fin.getline(input, 300, '\t');
+            getline(fin, label, '\t');
+            fin >> no_of_tracks;
+            fin.getline(input, 300, '\t');
+            fin >> runtime;
+            fin.getline(input, 300, '\t');
+            getline(fin, genre, '\r');
+            fin.getline(input, 300, '\n');
+            
+            cout << artist << "," << album << "," << year<< "," << label
+            << "," << no_of_tracks << "," << runtime << " "<< genre << "\n\n";
         }
         else{
             cout<<"Could not open file in question, does it exist?"<<endl;
@@ -115,7 +106,8 @@ bool test_input_simple()
 }
 
 //This function shows how to open a file and grab data line by line with the new line as a delimeter
-/*bool test_input_whole() {
+bool test_input_whole()
+{
     
      string filename;
      string line;
@@ -124,25 +116,26 @@ bool test_input_simple()
      cout << "Enter a filename: ";
      getline(cin, filename);
      fin.open(filename.c_str());
-     do {
+     do
+     {
      
-     if (fin.is_open()) {
-         getline(fin, line, '\n');
-         cout << line << endl;
+     if (fin.is_open())
+     {
+     getline(fin, line, '\n');
+     cout << line << endl;
      }
-     
      else{
-         cout<<"File not there"<<endl;
-         return false;
+     cout<<"File not there"<<endl;
+     return false;
      }
      
      }
-        while (!fin.eof()); //checks the connection
-        fin.clear();
-        fin.close();
+     while (!fin.eof()); //checks the connection
+     fin.clear();
+     fin.close();
     
-
-    This example is from the slides
+    
+    /** This example is from the slides
      ifstream in;
      string filename;
      char text[100];
@@ -155,9 +148,10 @@ bool test_input_simple()
      cout<<text<<endl;
      }
      in.clear();
-     in.close();
+     in.close();**/
+    
     return true;
-} */
+}
 
 int main(){
     
@@ -168,7 +162,6 @@ int main(){
     //test_input_whole();
     
     //Input file and parse per parameter and add to a variable, print out
-    // /Users/jlroo/Desktop/movies_o.txt /Users/jlroo/Desktop/albums.txt
     test_input_simple();
     
     return 0;

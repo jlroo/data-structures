@@ -119,10 +119,10 @@ int main(){
         //welcome message and menu options
         cout << "Welcome to Geometry 101"<<endl<<endl;
         cout << "Lets find some shapes"<< endl;
-        cout << "For Rectangular Prism press(1)"<<endl;
-        cout << "For Sphere press(2)"<<endl;
-        cout << "For Triangle press(3)"<<endl;
-        cout << "To Exit press(4)"<<endl;
+        cout << "For Rectangular Prism  [press]  (1)"<<endl;
+        cout << "For Sphere             [press]  (2)"<<endl;
+        cout << "For Triangle           [press]  (3)"<<endl;
+        cout << "To Exit                [press]  (4)"<<endl;
         cout << "Choose one option:"<<endl;
         cin >> key; //get option for the swicth
         cout << ""<<endl;
