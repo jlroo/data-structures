@@ -11,17 +11,17 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2011EB7EA7F7CF59C223EF492926B8C7EA3CDC5E</key>
-		<string>ssh://github.com/jlroo/Data_structures.git</string>
+		<string>github.com:jlroo/Data_structures.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>C++.xcodeproj/project.xcworkspace</string>
+	<string>C++.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2011EB7EA7F7CF59C223EF492926B8C7EA3CDC5E</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/jlroo/Data_structures.git</string>
+	<string>github.com:jlroo/Data_structures.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

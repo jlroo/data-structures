@@ -76,7 +76,7 @@ int get_num_occ(vector<string> & w, vector<string> & single_word,vector<string> 
     sort(single_word.begin(),single_word.end());                  //Sorts the elements in the range [first,last) into ascending order.
     vector<string>::iterator it;                                  //Random-access iterators to access elements at an arbitrary offset position relative
     //to the element pointed.
-    
+
     for (int i=0; i<single_word.size(); i++) {
         if ((single_word[i+1]!=single_word[i])) {                 //If the word second word isnt equal to the first assign to the vector
             word_count.push_back(single_word[i]);                 //then count how many times a single_word at [i] occurs in the all vector
@@ -88,7 +88,7 @@ int get_num_occ(vector<string> & w, vector<string> & single_word,vector<string> 
 }
 
 int search_word(vector<string> & word_count, vector<double> & w_count) {
-    
+    cin.sync();
     cout<<""<<endl;
     vector<string>::iterator it;
     string search;

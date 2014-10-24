@@ -95,11 +95,12 @@ int main(){
                 
                 cin.ignore();cin.sync();
                 cout << "* * * * * * * * SEARCH WORD * * * * * * * *"<<endl;
-                cout << "*    To search for a word in the file     *"<<endl;
-                cout << "*        and look its statistics          *"<<endl;
-                cout << "*              Enter a word:              *"<<endl;
+                cout << "*                                         *"<<endl;
+                cout << "*       Search for a word in the file     *"<<endl;
+                cout << "*        and look for its statistics     *"<<endl;
+                cout << "*                                         *"<<endl;
                 cout << "* * * * * * * * * * * * * * * * * * * * * *"<<endl;
-                cin.ignore();cin.sync();
+
                 search_word(word_count,w_count);                                //function to search word in the file
                 cout << ""<<endl;
             }
