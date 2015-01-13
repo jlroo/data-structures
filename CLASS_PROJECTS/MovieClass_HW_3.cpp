@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Jose L Rodriguez. All rights reserved.
 //
 
-#include "HW_3.h"
+#include "MovieClass_HW_3.h"
 #include <fstream>
 #include <iostream>
 
@@ -35,13 +35,12 @@ int main(){
             case 49:{
                 
                 cin.ignore();
+                cout << "To create a new MOVIE ARCHIVE.";
                 cout << "Enter a filename (/user/location/file.txt): ";
                 getline(cin,filename);                                  //  Get file name from user
-                cout <<""<<endl;                                        //  /Users/jlroo/Desktop/movies.txt
-                
-                cout <<"How many movies are you archiving today?" <<endl;
+                cout <<""<<endl;                                        //  /Users/jlroo/Desktop/movies_user.txt
+                cout <<"How many movies are you archiving today?" <<endl;// /Users/jlroo/Desktop/movies.txt
                 cin >> num_movies;
-                
                 write_file(filename,num_movies);                        // function to add movie to the file
 
             }
@@ -49,12 +48,10 @@ int main(){
                 break;
                 
             case 50:{
-                
-                    cin.ignore();
+                cin.ignore();cin.clear();
                     cout << "To open a file enter the filename (/user/location/FILE_NAME.txt): ";
                     getline(cin,file);                                  //  Get file name from user
                     cout <<""<<endl;
-
                     file_name = new char[file.length() + 1];
                     strcpy(file_name, file.c_str());
                     write_console(file_name);                           // funtion to read a file and write to console

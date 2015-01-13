@@ -1,14 +1,7 @@
-//
-//  Stack.cpp
-//  LabFour
-//
-//  Created by maria saenz on 9/13/14.
-//  Copyright (c) 2014 maria saenz. All rights reserved.
-//
 
 
 #include <iostream>
-#include "Stack.h"
+#include "jlroo_Stack.h"
 using namespace std;
 
 class stack_class {

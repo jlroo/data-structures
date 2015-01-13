@@ -1,10 +1,3 @@
-//
-//  main.cpp
-//  LabThree
-//
-//  Created by maria saenz on 9/9/14.
-//  Copyright (c) 2014 maria saenz. All rights reserved.
-//
 
 #include<fstream>
 #include<iostream>
@@ -109,30 +102,30 @@ bool test_input_simple()
 bool test_input_whole()
 {
     
-     string filename;
-     string line;
-     ifstream fin;
-     
-     cout << "Enter a filename: ";
-     getline(cin, filename);
-     fin.open(filename.c_str());
-     do
-     {
-     
-     if (fin.is_open())
-     {
-     getline(fin, line, '\n');
-     cout << line << endl;
-     }
-     else{
-     cout<<"File not there"<<endl;
-     return false;
-     }
-     
-     }
-     while (!fin.eof()); //checks the connection
-     fin.clear();
-     fin.close();
+    string filename;
+    string line;
+    ifstream fin;
+    
+    cout << "Enter a filename: ";
+    getline(cin, filename);
+    fin.open(filename.c_str());
+    do
+    {
+        
+        if (fin.is_open())
+        {
+            getline(fin, line, '\n');
+            cout << line << endl;
+        }
+        else{
+            cout<<"File not there"<<endl;
+            return false;
+        }
+        
+    }
+    while (!fin.eof()); //checks the connection
+    fin.clear();
+    fin.close();
     
     
     /** This example is from the slides

@@ -2,8 +2,6 @@
 #include <queue>
 using namespace std;
 
-
-
 void example_one(){
   queue<int> myqueue;
 

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Jose L Rodriguez. All rights reserved.
 //
 
-#ifndef __C____HW_4__
+#ifndef __C____STACK_HW_4__
 #define __C____HW_4__
 #include <stdio.h>
 #include <stack>

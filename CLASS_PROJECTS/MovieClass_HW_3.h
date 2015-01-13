@@ -6,7 +6,7 @@
 //  Created by jlroo on 9/25/14.
 //  Copyright (c) 2014 Jose L Rodriguez. All rights reserved.
 //
-#ifndef HW_3
+#ifndef MovieClass_HW_3
 #include<fstream>
 #include <iostream>
 #include <algorithm>
@@ -262,16 +262,13 @@ bool write_console(string file_name){                //get the file name from th
     
     ifstream fin;
     fin.open(file_name);
-    getline(fin,head); //get the number at the top of the file
-    
     cout<<"* * * * * * * * "<<endl;
     cout<<" "<<endl;
-    cin.ignore();
     
         do {
             if (fin.is_open()){
                 while (!fin.eof()) {
-                    
+                    getline(fin,head); //get the number at the top of the file
                     getline(fin, title, ',');
                     getline(fin, director, ',');
                     fin >>runtime;
@@ -288,17 +285,22 @@ bool write_console(string file_name){                //get the file name from th
                     cout <<"Genre:"         << genre    <<endl;
                     cout <<"Rating:"        << rating   <<endl;
                     cout <<""<<endl;
-
                     
                 }
             }
+            else{
+                cout<<"No file was written. There is no information associated with this movie"<<endl;
+                cout<<" "<<endl;
+                return 0;
+            }
         }
         while (!fin.eof());
-        fin.clear();
-        fin.close();
         cout<<"* * * * * * * * "<<endl;
         cout<<"End of the file "<<endl;
         cout<<"                "<<endl;
+    
+    fin.clear();
+    fin.close();
         return 1;
 }
 
@@ -358,6 +360,7 @@ bool write_file( string filename, int num_movies){
             file << ra_user;
             cout<<" "<<endl;
         }
+    
         file.close();
     
     return 1;

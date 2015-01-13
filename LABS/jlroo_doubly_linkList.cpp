@@ -25,8 +25,6 @@ class DList
 
 };
 
-
-
 using namespace std;
 
 void DList::Append(DLL_Node *NewNode)
@@ -196,8 +194,7 @@ int main()
     x.Traverse();
     cout << endl;
     //x.Delete_Pos(1);
-    DLL_Node *a=new DLL_Node();
-    a->data=10;
+    DLL_Node *a=new DLL_Node(); a->data=10;
     x.Insert_Pos(a,2);
     x.Traverse();
     cout << endl;

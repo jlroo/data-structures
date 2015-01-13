@@ -1,15 +1,3 @@
-//
-//  Stack.h
-//  LabFour
-//
-//  Created by maria saenz on 9/13/14.
-//  Copyright (c) 2014 maria saenz. All rights reserved.
-//
-
-#ifndef LabFour_Stack_h
-#define LabFour_Stack_h
-
-
 class Stack
 {
 private:
@@ -25,6 +13,3 @@ public:
     bool isEmpty();
     void copy(Stack& stack);
 };
-
-
-#endif

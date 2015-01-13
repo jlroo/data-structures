@@ -5,7 +5,7 @@
 //  Created by jlroo on 10/14/14.
 //  Copyright (c) 2014 Jose L Rodriguez. All rights reserved.
 //
-#include "HW_5.h"
+#include "Vectors_HW_5.h"
 
 int main(){
     char key;
@@ -51,8 +51,8 @@ int main(){
                 read_file(file_name, words);                                   //function to read the file and put it in a vector
                 get_num_occ(words,single_word,word_count,w_count);             //function to get individula words and their count
                 
-                filename_out= filename.insert(filename.length()-4, "_Stats");  //File with statistics will be save with the same name of the input file plus
-                file_out= new char[filename_out.length()+1];                   //_Stat.txt root
+                filename_out= filename.insert(filename.length()-4, "_Stats");  //File with statistics will be save with the same name of the input file
+                file_out= new char[filename_out.length()+1];                   // plus _Stat.txt root
                 strcpy(file_out, filename_out.c_str());
                 
                 print_stats(word_count,w_count);                               //Print statistics in a nice format
@@ -97,7 +97,7 @@ int main(){
                 cout << "* * * * * * * * SEARCH WORD * * * * * * * *"<<endl;
                 cout << "*                                         *"<<endl;
                 cout << "*       Search for a word in the file     *"<<endl;
-                cout << "*        and look for its statistics     *"<<endl;
+                cout << "*        and look for its statistics      *"<<endl;
                 cout << "*                                         *"<<endl;
                 cout << "* * * * * * * * * * * * * * * * * * * * * *"<<endl;
 

@@ -287,3 +287,19 @@ int main(){
     delete [] rt_user;
 }
 
+/*
+ 3. (1pt) Assume the definitions and initializations:
+ 
+ char c = 'T', d = 'S';
+ char *p1 = &d; <---value pointed to p1 = Address of d
+ char *p2 = &c; <---value pointed to p2 = Address of c
+ char *p3;      <---value pointed to p3
+ 
+ ANSWER
+ 
+ * p3 = S, p3 = ST
+ 
+ * p1 = T, p1 = TT
+ 
+ */
+
