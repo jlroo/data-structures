@@ -1,7 +1,7 @@
 COMP 271: Data Structures C++
 ==============================
 ###Computer Science Department
-###Loyola University 
+###Loyola University - Fall 2014
 
 ## Instructor
 Ms. Maria Saenz
