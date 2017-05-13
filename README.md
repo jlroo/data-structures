@@ -1,10 +1,10 @@
 COMP 271: Data Structures C++
 ==============================
-###Computer Science Department
-###Loyola University - Fall 2014
+#### Computer Science Department
+#### Loyola University - Fall 2014
 
 ## Instructor
-Ms. Maria Saenz
+* Ms. Maria Saenz
 
 ## Course Objectives
 
@@ -14,6 +14,5 @@ are examined using classes, arrays, and linked structures. Sorting and searching
 The concepts of correctness and efficiency of algorithms are developed. Time/space comparisons of iterative algorithms 
 with recursive algorithms are made. The course includes several major programming projects.
 
-##Textbook
-Data Structures using C++ by Dr. Varsha H Patil. Oxford University Press.
-ISBN: 0-19-806623-6
+## Textbook
+* Data Structures using C++ by Dr. Varsha H Patil. Oxford University Press. ISBN: 0-19-806623-6
